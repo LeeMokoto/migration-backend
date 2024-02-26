@@ -6,12 +6,12 @@ const s3Endpoint = new AWS.Endpoint("s3.us-east-1.amazonaws.com")
 
 // TODO: insert your credentials here
 const s3Credentials = new AWS.Credentials({
-  accessKeyId: "AKIASC435SOWMNECW6UL",
-  secretAccessKey: "l65NDHqp/NrAN7/NMomCxiHfuHG/iqYFLjMf89ru",
+  accessKeyId: "",
+  secretAccessKey: "",
 })
 
 const s3 = new AWS.S3({
-  
+
   endpoint: s3Endpoint,
   credentials: s3Credentials,
 })
